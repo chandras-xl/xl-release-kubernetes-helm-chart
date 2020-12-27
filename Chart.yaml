@@ -15,8 +15,8 @@ dependencies:
   repository: "https://charts.bitnami.com/bitnami"
   condition: postgresql.install
 
-- name: rabbitmq-ha
-  version: 1.45.0
-  repository: "https://kubernetes-charts.storage.googleapis.com/"
-  condition: rabbitmq-ha.install
+#- name: rabbitmq-ha
+#  version: 1.45.0
+#  repository: "https://kubernetes-charts.storage.googleapis.com/"
+#  condition: rabbitmq-ha.install
 
