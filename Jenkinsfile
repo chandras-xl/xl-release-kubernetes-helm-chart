@@ -9,7 +9,7 @@ pipeline{
         timeout(time: 10, unit: 'MINUTES')
     }
     environment {
-        BRANCH_NAME = "master"
+        BRANCH_NAME = "rabbitmq"
         BRANCH_OPENSHIFT = "ENG-2678"
         PRODUCT_NAME = "${params.PRODUCT}"
         PLATFORM_NAME = "${params.PLATFORM}"
